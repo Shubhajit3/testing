@@ -38,3 +38,27 @@ body {
  img {
 	animation: zoominoutsinglefeatured infinite 5s forwards;
 } */
+h1 {
+  animation: 10000ms ease-in-out infinite color-changes;
+}
+
+@keyframes color-changes {
+  0% {
+    color: blue;
+  }
+  20% {
+    color: black;
+  }
+  40% {
+    color: blueviolet;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: crimson;
+  }
+  100% {
+    color: blue;
+  }
+}
